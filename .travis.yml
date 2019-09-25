@@ -13,6 +13,8 @@ install:
   - pip install --upgrade autopep8
   - pip install matplotlib
   - pip install numpy
-script: pytest ./climateDataGen
+script:
+  - pytest
+  - autopep8 --in-place --aggressive --aggressive ./climateDataGen/climate_data_generator
 after_success:
   - codecov
