@@ -8,7 +8,6 @@ pressure_values = []
 
 
 def humidity_data(count):
-    i = 0
     for i in range(0, count):
         relative_humidity = random.randrange(55.0, 77.0)
         dew_point = (100 - relative_humidity) / 5
@@ -20,8 +19,6 @@ def humidity_data(count):
 
 
 def wind_speed_data(count):
-
-    i = 0
     for i in range(0, count):
         longitude = random.randrange(98.0, 102.0)
         wind_speed = 0.0001 * longitude
