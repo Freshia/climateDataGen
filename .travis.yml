@@ -16,5 +16,6 @@ install:
 script:
   - pytest
   - autopep8 --in-place --aggressive --aggressive ./climateDataGen/climate_data_generator
+  - coverage run ./climateDataGen/test_climData.py
 after_success:
   - codecov
