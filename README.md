@@ -32,6 +32,7 @@ import climateDataGen.climate_data_generator as cl
 To generate random climatic data:
 ```sh
 import climateDataGen.climate_data_generator as cl
-humidity = cl.humidity_data()
-print(x)
+#generates array of five humidity data values
+humidity = cl.humidity_data(5)
+print(humidity)
 
