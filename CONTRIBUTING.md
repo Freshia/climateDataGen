@@ -18,7 +18,7 @@ pip install --upgrade autopep8
 For a pull request to be merged, it has to be reviewed by the library maintainer.
 To aid in the reveiwing process, kindly ensure your PR complies with the following rules.
 
-**1:** Give your pul request a helpful title that summarises what the contribution does
+**1:** Give your pull request a helpful title that summarises what the contribution does
 
 **2:** Make sure your code passes all the tests
 
